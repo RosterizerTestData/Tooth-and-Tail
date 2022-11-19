@@ -1,0 +1,1893 @@
+{
+  "name": "Tooth and Tail",
+  "game": "Tooth and Tail",
+  "genre": "generic",
+  "publisher": "Pocketwatch Games",
+  "url": "http://www.toothandtailgame.com/",
+  "info": "Need:\n\n* unit speed \n* mole building dmg\n* unit vision\n* warren/mill/farm stats  \n(build time, hp, production, etc)",
+  "manifest": {
+    "assetTaxonomy": {
+      "1st Tier Recruit": {
+        "aspects": {
+          "Lock Qty": true,
+          "Type": "game piece",
+          "Unique": true
+        },
+        "stats": {
+          "Recruit": {
+            "value": 1,
+            "tracked": true,
+            "statType": "numeric",
+            "visibility": "hidden"
+          }
+        }
+      },
+      "2nd Tier Recruit": {
+        "aspects": {
+          "Lock Qty": true,
+          "Type": "game piece",
+          "Unique": true
+        },
+        "stats": {
+          "Recruit": {
+            "tracked": true,
+            "value": 1,
+            "statType": "numeric",
+            "visibility": "hidden"
+          }
+        }
+      },
+      "3rd Tier Recruit": {
+        "aspects": {
+          "Lock Qty": true,
+          "Type": "game piece",
+          "Unique": true
+        },
+        "stats": {
+          "Recruit": {
+            "tracked": true,
+            "value": 1,
+            "statType": "numeric",
+            "visibility": "hidden"
+          }
+        }
+      },
+      "Farm": {
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Fortification": {
+        "aspects": {
+          "Lock Qty": true,
+          "Type": "game piece",
+          "Unique": true
+        },
+        "stats": {
+          "Recruit": {
+            "tracked": true,
+            "value": 1,
+            "statType": "numeric",
+            "visibility": "hidden"
+          }
+        }
+      },
+      "Mill": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "stats": {
+          "Build Time": {
+            "icons": [
+              "stopwatch"
+            ]
+          },
+          "Defense": {
+            "icons": [
+              "heart-shield"
+            ]
+          },
+          "Vision": {
+            "icons": [
+              "spyglass"
+            ]
+          }
+        }
+      },
+      "NPC": {
+        "stats": {
+          "Cooldown": {
+            "statOrder": 2,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2
+          },
+          "Damage": {
+            "statOrder": 1,
+            "icons": [
+              "rough-wound"
+            ],
+            "group": "Attack",
+            "groupOrder": 2
+          },
+          "Defense": {
+            "icons": [
+              "heart-shield"
+            ],
+            "group": "Defense",
+            "groupOrder": 1
+          },
+          "Range": {
+            "statOrder": 3,
+            "icons": [
+              "path-distance"
+            ],
+            "group": "Attack",
+            "groupOrder": 2
+          }
+        }
+      },
+      "Trait": {},
+      "Unit": {
+        "stats": {
+          "Build Time": {
+            "statOrder": 2,
+            "icons": [
+              "stopwatch"
+            ],
+            "group": "Build",
+            "groupOrder": 3
+          },
+          "Cooldown": {
+            "statOrder": 20,
+            "icons": [
+              "duration"
+            ],
+            "group": "Attack",
+            "groupOrder": 2
+          },
+          "Cost": {
+            "statOrder": 1,
+            "icons": [
+              "ham-shank"
+            ],
+            "group": "Build",
+            "groupOrder": 3
+          },
+          "Damage": {
+            "statOrder": 10,
+            "icons": [
+              "rough-wound"
+            ],
+            "group": "Attack",
+            "groupOrder": 2
+          },
+          "Defense": {
+            "icons": [
+              "heart-shield"
+            ],
+            "group": "Defense",
+            "groupOrder": 1
+          },
+          "Range": {
+            "statOrder": 30,
+            "icons": [
+              "path-distance"
+            ],
+            "group": "Attack",
+            "groupOrder": 2
+          },
+          "Vision": {
+            "icons": [
+              "spyglass"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 4,
+            "statType": "numeric"
+          }
+        }
+      },
+      "Warren": {
+        "stats": {
+          "Build Time": {
+            "icons": [
+              "stopwatch"
+            ]
+          },
+          "Cost": {
+            "icons": [
+              "ham-shank"
+            ]
+          },
+          "Health": {
+            "icons": [
+              "heart-shield"
+            ],
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Yield": {
+            "icons": [
+              "minions"
+            ]
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      "1st Tier Recruit§Engineers for Hire": {
+        "assets": {
+          "traits": [
+            "Unit§Mole",
+            "Warren§Mole Warren"
+          ]
+        },
+        "classification": "1st Tier Recruit",
+        "designation": "Engineers for Hire"
+      },
+      "1st Tier Recruit§The Distillery Brothers": {
+        "assets": {
+          "traits": [
+            "Unit§Squirrel",
+            "Warren§Tier 1 Warren"
+          ]
+        },
+        "classification": "1st Tier Recruit",
+        "designation": "The Distillery Brothers"
+      },
+      "1st Tier Recruit§The Morning Light Croakers": {
+        "assets": {
+          "traits": [
+            "Unit§Toad",
+            "Warren§Tier 1 Warren"
+          ]
+        },
+        "classification": "1st Tier Recruit",
+        "designation": "The Morning Light Croakers"
+      },
+      "1st Tier Recruit§The Nomads of the North": {
+        "assets": {
+          "traits": [
+            "Unit§Lizard",
+            "Warren§Tier 1 Warren"
+          ]
+        },
+        "classification": "1st Tier Recruit",
+        "designation": "The Nomads of the North"
+      },
+      "1st Tier Recruit§The Volunteers": {
+        "assets": {
+          "traits": [
+            "Unit§Pigeon",
+            "Warren§Tier 1 Warren"
+          ]
+        },
+        "classification": "1st Tier Recruit",
+        "designation": "The Volunteers"
+      },
+      "2nd Tier Recruit§The Freight Union": {
+        "assets": {
+          "traits": [
+            "Unit§Ferret",
+            "Warren§Tier 2 Warren"
+          ]
+        },
+        "classification": "2nd Tier Recruit",
+        "designation": "The Freight Union"
+      },
+      "2nd Tier Recruit§The Glorious AFB": {
+        "assets": {
+          "traits": [
+            "Unit§Skunk",
+            "Warren§Tier 2 Warren"
+          ]
+        },
+        "classification": "2nd Tier Recruit",
+        "designation": "The Glorious AFB"
+      },
+      "2nd Tier Recruit§The Tooth Collectors": {
+        "assets": {
+          "traits": [
+            "Unit§Snake",
+            "Warren§Tier 2 Warren"
+          ]
+        },
+        "classification": "2nd Tier Recruit",
+        "designation": "The Tooth Collectors"
+      },
+      "2nd Tier Recruit§The Trench Gang": {
+        "assets": {
+          "traits": [
+            "Unit§Chameleon",
+            "Warren§Tier 2 Warren"
+          ]
+        },
+        "classification": "2nd Tier Recruit",
+        "designation": "The Trench Gang"
+      },
+      "2nd Tier Recruit§The Wing Demons": {
+        "assets": {
+          "traits": [
+            "Unit§Falcon",
+            "Warren§Tier 2 Warren"
+          ]
+        },
+        "classification": "2nd Tier Recruit",
+        "designation": "The Wing Demons"
+      },
+      "3rd Tier Recruit§Drill Sergeant Volkov": {
+        "assets": {
+          "traits": [
+            "Unit§Wolf",
+            "Warren§Tier 3 Warren"
+          ]
+        },
+        "classification": "3rd Tier Recruit",
+        "designation": "Drill Sergeant Volkov"
+      },
+      "3rd Tier Recruit§Inmate #43B": {
+        "assets": {
+          "traits": [
+            "Unit§Badger",
+            "Warren§Tier 3 Warren"
+          ]
+        },
+        "classification": "3rd Tier Recruit",
+        "designation": "Inmate #43B"
+      },
+      "3rd Tier Recruit§Kasha, the Farmhand": {
+        "assets": {
+          "traits": [
+            "Unit§Fox",
+            "Warren§Tier 3 Warren"
+          ]
+        },
+        "classification": "3rd Tier Recruit",
+        "designation": "Kasha, the Farmhand"
+      },
+      "3rd Tier Recruit§The Matriark and the Wretches": {
+        "assets": {
+          "traits": [
+            "Unit§Owl",
+            "Warren§Tier 3 Warren"
+          ]
+        },
+        "classification": "3rd Tier Recruit",
+        "designation": "The Matriark and the Wretches"
+      },
+      "3rd Tier Recruit§Uncle Butters": {
+        "assets": {
+          "traits": [
+            "Unit§Boar",
+            "Warren§Tier 3 Warren"
+          ]
+        },
+        "classification": "3rd Tier Recruit",
+        "designation": "Uncle Butters"
+      },
+      "Farm§Farm": {
+        "assets": {
+          "traits": []
+        },
+        "classification": "Farm",
+        "designation": "Farm"
+      },
+      "Fortification§Bullet Hive": {
+        "assets": {
+          "traits": [
+            "Trait§Machine Gun"
+          ]
+        },
+        "classification": "Fortification",
+        "designation": "Bullet Hive"
+      },
+      "Fortification§Drumfire Cannon": {
+        "assets": {
+          "traits": [
+            "Trait§Artillery"
+          ]
+        },
+        "classification": "Fortification",
+        "designation": "Drumfire Cannon"
+      },
+      "Fortification§Feather Wire": {
+        "assets": {
+          "traits": [
+            "Trait§Barbed Wire"
+          ]
+        },
+        "classification": "Fortification",
+        "designation": "Feather Wire"
+      },
+      "Fortification§Thermal Airsniper": {
+        "assets": {
+          "traits": [
+            "Trait§Flying",
+            "Trait§Sniper"
+          ]
+        },
+        "classification": "Fortification",
+        "designation": "Thermal Airsniper"
+      },
+      "Fortification§Tremor Mine": {
+        "assets": {
+          "traits": [
+            "Trait§Stealth",
+            "Trait§Proxy"
+          ]
+        },
+        "classification": "Fortification",
+        "designation": "Tremor Mine"
+      },
+      "Mill§Mill": {
+        "assets": {
+          "traits": []
+        },
+        "classification": "Mill",
+        "stats": {
+          "Build Time": {
+            "value": 120,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 150,
+            "statType": "numeric"
+          },
+          "Territory": {
+            "icons": [
+              "radar-cross-section"
+            ],
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Vision": {
+            "value": 8,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Mill"
+      },
+      "NPC§Fat Boris": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "classification": "NPC",
+        "stats": {
+          "Cooldown": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Fat Boris"
+      },
+      "NPC§Wretch": {
+        "assets": {
+          "traits": [
+            "Trait§Berserker",
+            "Trait§Swift"
+          ]
+        },
+        "classification": "NPC",
+        "stats": {
+          "Cooldown": {
+            "statOrder": 20,
+            "value": 0.75,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "statOrder": 10,
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Range": {
+            "statOrder": 30,
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Wretch"
+      },
+      "Roster§Deck": {
+        "allowed": {
+          "classifications": [
+            "1st Tier Recruit",
+            "2nd Tier Recruit",
+            "3rd Tier Recruit",
+            "Fortification"
+          ]
+        },
+        "aspects": {
+          "Describe": true,
+          "Lock Qty": true,
+          "Rename": true,
+          "Type": "conceptual",
+          "Unique": true
+        },
+        "assets": {
+          "traits": [
+            "Mill§Mill",
+            "Farm§Farm",
+            "NPC§Fat Boris"
+          ]
+        },
+        "classification": "Roster",
+        "stats": {
+          "Recruit": {
+            "label": "Recruits",
+            "icons": [
+              "rat"
+            ],
+            "ranks": {
+              "3": {
+                "hotkey": "3",
+                "order": 3,
+                "statType": "value",
+                "number": 3
+              },
+              "4": {
+                "hotkey": "4",
+                "order": 4,
+                "statType": "value",
+                "number": 4
+              },
+              "5": {
+                "hotkey": "5",
+                "order": 5,
+                "statType": "value",
+                "number": 5
+              },
+              "6": {
+                "hotkey": "6",
+                "order": 6,
+                "statType": "value",
+                "number": 6
+              },
+              "7": {
+                "hotkey": "7",
+                "order": 7,
+                "statType": "value",
+                "number": 7
+              },
+              "8": {
+                "hotkey": "8",
+                "order": 8,
+                "statType": "value",
+                "number": 8
+              },
+              "9": {
+                "hotkey": "9",
+                "order": 9,
+                "statType": "value",
+                "number": 9
+              }
+            },
+            "statType": "rank",
+            "dynamic": true
+          }
+        },
+        "designation": "Deck"
+      },
+      "Trait§Artillery": {
+        "classification": "Trait",
+        "designation": "Artillery"
+      },
+      "Trait§Barbed Wire": {
+        "classification": "Trait",
+        "designation": "Barbed Wire"
+      },
+      "Trait§Berserker": {
+        "classification": "Trait",
+        "designation": "Berserker"
+      },
+      "Trait§Club": {
+        "classification": "Trait",
+        "designation": "Club"
+      },
+      "Trait§Farmer": {
+        "classification": "Trait",
+        "designation": "Farmer"
+      },
+      "Trait§Flamethrower": {
+        "classification": "Trait",
+        "designation": "Flamethrower"
+      },
+      "Trait§Flying": {
+        "classification": "Trait",
+        "designation": "Flying"
+      },
+      "Trait§Freedom Spoon": {
+        "classification": "Trait",
+        "designation": "Freedom Spoon"
+      },
+      "Trait§Grenade": {
+        "classification": "Trait",
+        "designation": "Grenade"
+      },
+      "Trait§Landmine": {
+        "classification": "Trait",
+        "text": "Detonates on collision after 0.25 seconds.",
+        "designation": "Landmine"
+      },
+      "Trait§Machine Gun": {
+        "classification": "Trait",
+        "designation": "Machine Gun"
+      },
+      "Trait§Medic": {
+        "classification": "Trait",
+        "designation": "Medic"
+      },
+      "Trait§Melee": {
+        "classification": "Trait",
+        "designation": "Melee"
+      },
+      "Trait§Minigun": {
+        "classification": "Trait",
+        "designation": "Minigun"
+      },
+      "Trait§Pistol": {
+        "classification": "Trait",
+        "designation": "Pistol"
+      },
+      "Trait§Proxy": {
+        "classification": "Trait",
+        "text": "Can build anywhere!",
+        "designation": "Proxy"
+      },
+      "Trait§Sniper": {
+        "classification": "Trait",
+        "designation": "Sniper"
+      },
+      "Trait§Spawner": {
+        "classification": "Trait",
+        "designation": "Spawner"
+      },
+      "Trait§Spear": {
+        "classification": "Trait",
+        "designation": "Spear"
+      },
+      "Trait§Stealth": {
+        "classification": "Trait",
+        "designation": "Stealth"
+      },
+      "Trait§Stim": {
+        "classification": "Trait",
+        "designation": "Stim"
+      },
+      "Trait§Submachine Gun": {
+        "classification": "Trait",
+        "designation": "Submachine Gun"
+      },
+      "Trait§Swift": {
+        "classification": "Trait",
+        "designation": "Swift"
+      },
+      "Trait§Time Bomb": {
+        "classification": "Trait",
+        "designation": "Time Bomb"
+      },
+      "Trait§Venomous": {
+        "classification": "Trait",
+        "designation": "Venomous"
+      },
+      "Unit§Badger": {
+        "assets": {
+          "traits": [
+            "Trait§Minigun"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 0.1,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 180,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 65,
+            "statType": "numeric"
+          },
+          "Max Damage": {
+            "value": 25,
+            "statOrder": 15,
+            "icons": [
+              "rough-wound"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Badger"
+      },
+      "Unit§Boar": {
+        "assets": {
+          "traits": [
+            "Trait§Flamethrower"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 180,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 110,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "vs. Struct.": {
+            "statOrder": 15,
+            "icons": [
+              "damaged-house"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 6,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Boar"
+      },
+      "Unit§Chameleon": {
+        "assets": {
+          "traits": [
+            "Trait§Club",
+            "Trait§Stealth"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 60,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 30,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Chameleon"
+      },
+      "Unit§Drill Sergeant Volkov": {
+        "assets": {
+          "traits": [
+            "Trait§Stim"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Drill Sergeant Volkov"
+      },
+      "Unit§Falcon": {
+        "assets": {
+          "traits": [
+            "Trait§Flying",
+            "Trait§Submachine Gun"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 0.1,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 60,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Magazine": {
+            "statOrder": 25,
+            "icons": [
+              "machine-gun-magazine"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Reload": {
+            "statOrder": 26,
+            "icons": [
+              "reload-gun-barrel"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Falcon"
+      },
+      "Unit§Ferret": {
+        "assets": {
+          "traits": [
+            "Trait§Artillery"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 60,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 8,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Ferret"
+      },
+      "Unit§Fox": {
+        "assets": {
+          "traits": [
+            "Trait§Sniper",
+            "Trait§Swift"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 1.8,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 180,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.2,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 6,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Fox"
+      },
+      "Unit§Inmate #43B": {
+        "assets": {
+          "traits": [
+            "Trait§Minigun"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 0.1,
+            "statType": "numeric"
+          },
+          "DPS": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 65,
+            "statType": "numeric"
+          },
+          "Max DPS": {
+            "value": 25,
+            "statOrder": 15,
+            "icons": [
+              "rough-wound"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Inmate #43B"
+      },
+      "Unit§Kasha, the Farmhand": {
+        "assets": {
+          "traits": [
+            "Trait§Sniper",
+            "Trait§Swift"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 1.8,
+            "statType": "numeric"
+          },
+          "DPS": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.2,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 6,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Kasha, the Farmhand"
+      },
+      "Unit§Lizard": {
+        "assets": {
+          "traits": [
+            "Trait§Spear",
+            "Trait§Swift"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 1"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 0.75,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 3,
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 2,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Lizard"
+      },
+      "Unit§Mole": {
+        "assets": {
+          "traits": [
+            "Trait§Freedom Spoon"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 1"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 0.75,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Mole"
+      },
+      "Unit§Owl": {
+        "assets": {
+          "traits": [
+            "Trait§Flying",
+            "Trait§Spawner",
+            "NPC§Wretch"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 0.75,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 180,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 40,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Magazine": {
+            "statOrder": 25,
+            "icons": [
+              "machine-gun-magazine"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Reload": {
+            "statOrder": 26,
+            "icons": [
+              "reload-gun-barrel"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 7,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Owl"
+      },
+      "Unit§Pigeon": {
+        "assets": {
+          "traits": [
+            "Trait§Medic",
+            "Trait§Flying"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 1"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Pigeon"
+      },
+      "Unit§Skunk": {
+        "assets": {
+          "traits": [
+            "Trait§Grenade"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 60,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 32,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Skunk"
+      },
+      "Unit§Snake": {
+        "assets": {
+          "traits": [
+            "Trait§Venomous"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 60,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 28,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Snake"
+      },
+      "Unit§Squirrel": {
+        "assets": {
+          "traits": [
+            "Trait§Pistol"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 1"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Squirrel"
+      },
+      "Unit§The Freight Union": {
+        "assets": {
+          "traits": [
+            "Trait§Artillery"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "DPS": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 8,
+            "statType": "numeric"
+          }
+        },
+        "designation": "The Freight Union"
+      },
+      "Unit§The Glorious AFB": {
+        "assets": {
+          "traits": [
+            "Trait§Grenade"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "DPS": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 32,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "The Glorious AFB"
+      },
+      "Unit§The Matriark": {
+        "assets": {
+          "traits": [
+            "Trait§Flying",
+            "Trait§Spawner",
+            "NPC§Wretch"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 0.75,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 40,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Magazine": {
+            "statOrder": 25,
+            "icons": [
+              "machine-gun-magazine"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Reload": {
+            "statOrder": 26,
+            "icons": [
+              "reload-gun-barrel"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 7,
+            "statType": "numeric"
+          }
+        },
+        "designation": "The Matriark"
+      },
+      "Unit§The Tooth Collectors": {
+        "assets": {
+          "traits": [
+            "Trait§Venomous"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "DPS": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 28,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "The Tooth Collectors"
+      },
+      "Unit§The Trench Gang": {
+        "assets": {
+          "traits": [
+            "Trait§Club",
+            "Trait§Stealth"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "DPS": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 30,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.25,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "The Trench Gang"
+      },
+      "Unit§The Wing Demons": {
+        "assets": {
+          "traits": [
+            "Trait§Flying",
+            "Trait§Submachine Gun"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 2"
+          ]
+        },
+        "stats": {
+          "Cooldown": {
+            "value": 0.1,
+            "statType": "numeric"
+          },
+          "DPS": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Magazine": {
+            "statOrder": 25,
+            "icons": [
+              "machine-gun-magazine"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Reload": {
+            "statOrder": 26,
+            "icons": [
+              "reload-gun-barrel"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "The Wing Demons"
+      },
+      "Unit§Toad": {
+        "assets": {
+          "traits": [
+            "Trait§Time Bomb"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 1"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Damage": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Delay": {
+            "statOrder": 15,
+            "icons": [
+              "pocket-watch"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 0.3,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Toad"
+      },
+      "Unit§Uncle Butters": {
+        "assets": {
+          "traits": [
+            "Trait§Flamethrower"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "DPS": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 110,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "vs. Struct.": {
+            "statOrder": 15,
+            "icons": [
+              "damaged-house"
+            ],
+            "group": "Attack",
+            "groupOrder": 2,
+            "value": 8,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Uncle Butters"
+      },
+      "Unit§Wolf": {
+        "assets": {
+          "traits": [
+            "Trait§Stim"
+          ]
+        },
+        "classification": "Unit",
+        "keywords": {
+          "Keywords": [
+            "Tier 3"
+          ]
+        },
+        "stats": {
+          "Build Time": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Cooldown": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 180,
+            "statType": "numeric"
+          },
+          "Defense": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Range": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Wolf"
+      },
+      "Warren§Mole Warren": {
+        "assets": {
+          "traits": [
+            "Trait§Proxy"
+          ]
+        },
+        "classification": "Warren",
+        "stats": {
+          "Build Time": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 60,
+            "statType": "numeric"
+          },
+          "Yield": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Mole Warren"
+      },
+      "Warren§Tier 1 Warren": {
+        "classification": "Warren",
+        "stats": {
+          "Build Time": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 60,
+            "statType": "numeric"
+          },
+          "Yield": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Tier 1 Warren"
+      },
+      "Warren§Tier 2 Warren": {
+        "classification": "Warren",
+        "stats": {
+          "Build Time": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 120,
+            "statType": "numeric"
+          },
+          "Yield": {
+            "value": 2,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Tier 2 Warren"
+      },
+      "Warren§Tier 3 Warren": {
+        "classification": "Warren",
+        "stats": {
+          "Build Time": {
+            "value": 50,
+            "statType": "numeric"
+          },
+          "Cost": {
+            "value": 180,
+            "statType": "numeric"
+          },
+          "Yield": {
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Tier 3 Warren"
+      }
+    },
+    "gameModes": {}
+  },
+  "revision": null,
+  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution."
+}

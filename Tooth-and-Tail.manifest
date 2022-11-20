@@ -1,10 +1,12 @@
 {
+  "info": "Need:\n\n* unit speed \n* mole building dmg\n* unit vision\n* warren/mill/farm stats  \n(build time, hp, production, etc)",
   "name": "Tooth and Tail",
+  "revision": null,
   "game": "Tooth and Tail",
   "genre": "generic",
   "publisher": "Pocketwatch Games",
   "url": "http://www.toothandtailgame.com/",
-  "info": "Need:\n\n* unit speed \n* mole building dmg\n* unit vision\n* warren/mill/farm stats  \n(build time, hp, production, etc)",
+  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
   "manifest": {
     "assetTaxonomy": {
       "1st Tier Recruit": {
@@ -224,9 +226,7 @@
             "Unit§Mole",
             "Warren§Mole Warren"
           ]
-        },
-        "classification": "1st Tier Recruit",
-        "designation": "Engineers for Hire"
+        }
       },
       "1st Tier Recruit§The Distillery Brothers": {
         "assets": {
@@ -234,9 +234,7 @@
             "Unit§Squirrel",
             "Warren§Tier 1 Warren"
           ]
-        },
-        "classification": "1st Tier Recruit",
-        "designation": "The Distillery Brothers"
+        }
       },
       "1st Tier Recruit§The Morning Light Croakers": {
         "assets": {
@@ -244,9 +242,7 @@
             "Unit§Toad",
             "Warren§Tier 1 Warren"
           ]
-        },
-        "classification": "1st Tier Recruit",
-        "designation": "The Morning Light Croakers"
+        }
       },
       "1st Tier Recruit§The Nomads of the North": {
         "assets": {
@@ -254,9 +250,7 @@
             "Unit§Lizard",
             "Warren§Tier 1 Warren"
           ]
-        },
-        "classification": "1st Tier Recruit",
-        "designation": "The Nomads of the North"
+        }
       },
       "1st Tier Recruit§The Volunteers": {
         "assets": {
@@ -264,9 +258,7 @@
             "Unit§Pigeon",
             "Warren§Tier 1 Warren"
           ]
-        },
-        "classification": "1st Tier Recruit",
-        "designation": "The Volunteers"
+        }
       },
       "2nd Tier Recruit§The Freight Union": {
         "assets": {
@@ -274,9 +266,7 @@
             "Unit§Ferret",
             "Warren§Tier 2 Warren"
           ]
-        },
-        "classification": "2nd Tier Recruit",
-        "designation": "The Freight Union"
+        }
       },
       "2nd Tier Recruit§The Glorious AFB": {
         "assets": {
@@ -284,9 +274,7 @@
             "Unit§Skunk",
             "Warren§Tier 2 Warren"
           ]
-        },
-        "classification": "2nd Tier Recruit",
-        "designation": "The Glorious AFB"
+        }
       },
       "2nd Tier Recruit§The Tooth Collectors": {
         "assets": {
@@ -294,9 +282,7 @@
             "Unit§Snake",
             "Warren§Tier 2 Warren"
           ]
-        },
-        "classification": "2nd Tier Recruit",
-        "designation": "The Tooth Collectors"
+        }
       },
       "2nd Tier Recruit§The Trench Gang": {
         "assets": {
@@ -304,9 +290,7 @@
             "Unit§Chameleon",
             "Warren§Tier 2 Warren"
           ]
-        },
-        "classification": "2nd Tier Recruit",
-        "designation": "The Trench Gang"
+        }
       },
       "2nd Tier Recruit§The Wing Demons": {
         "assets": {
@@ -314,9 +298,7 @@
             "Unit§Falcon",
             "Warren§Tier 2 Warren"
           ]
-        },
-        "classification": "2nd Tier Recruit",
-        "designation": "The Wing Demons"
+        }
       },
       "3rd Tier Recruit§Drill Sergeant Volkov": {
         "assets": {
@@ -324,9 +306,7 @@
             "Unit§Wolf",
             "Warren§Tier 3 Warren"
           ]
-        },
-        "classification": "3rd Tier Recruit",
-        "designation": "Drill Sergeant Volkov"
+        }
       },
       "3rd Tier Recruit§Inmate #43B": {
         "assets": {
@@ -334,9 +314,7 @@
             "Unit§Badger",
             "Warren§Tier 3 Warren"
           ]
-        },
-        "classification": "3rd Tier Recruit",
-        "designation": "Inmate #43B"
+        }
       },
       "3rd Tier Recruit§Kasha, the Farmhand": {
         "assets": {
@@ -344,9 +322,7 @@
             "Unit§Fox",
             "Warren§Tier 3 Warren"
           ]
-        },
-        "classification": "3rd Tier Recruit",
-        "designation": "Kasha, the Farmhand"
+        }
       },
       "3rd Tier Recruit§The Matriark and the Wretches": {
         "assets": {
@@ -354,9 +330,7 @@
             "Unit§Owl",
             "Warren§Tier 3 Warren"
           ]
-        },
-        "classification": "3rd Tier Recruit",
-        "designation": "The Matriark and the Wretches"
+        }
       },
       "3rd Tier Recruit§Uncle Butters": {
         "assets": {
@@ -364,43 +338,33 @@
             "Unit§Boar",
             "Warren§Tier 3 Warren"
           ]
-        },
-        "classification": "3rd Tier Recruit",
-        "designation": "Uncle Butters"
+        }
       },
       "Farm§Farm": {
         "assets": {
           "traits": []
-        },
-        "classification": "Farm",
-        "designation": "Farm"
+        }
       },
       "Fortification§Bullet Hive": {
         "assets": {
           "traits": [
             "Trait§Machine Gun"
           ]
-        },
-        "classification": "Fortification",
-        "designation": "Bullet Hive"
+        }
       },
       "Fortification§Drumfire Cannon": {
         "assets": {
           "traits": [
             "Trait§Artillery"
           ]
-        },
-        "classification": "Fortification",
-        "designation": "Drumfire Cannon"
+        }
       },
       "Fortification§Feather Wire": {
         "assets": {
           "traits": [
             "Trait§Barbed Wire"
           ]
-        },
-        "classification": "Fortification",
-        "designation": "Feather Wire"
+        }
       },
       "Fortification§Thermal Airsniper": {
         "assets": {
@@ -408,9 +372,7 @@
             "Trait§Flying",
             "Trait§Sniper"
           ]
-        },
-        "classification": "Fortification",
-        "designation": "Thermal Airsniper"
+        }
       },
       "Fortification§Tremor Mine": {
         "assets": {
@@ -418,15 +380,12 @@
             "Trait§Stealth",
             "Trait§Proxy"
           ]
-        },
-        "classification": "Fortification",
-        "designation": "Tremor Mine"
+        }
       },
       "Mill§Mill": {
         "assets": {
           "traits": []
         },
-        "classification": "Mill",
         "stats": {
           "Build Time": {
             "value": 120,
@@ -447,14 +406,12 @@
             "value": 8,
             "statType": "numeric"
           }
-        },
-        "designation": "Mill"
+        }
       },
       "NPC§Fat Boris": {
         "aspects": {
           "Type": "game piece"
         },
-        "classification": "NPC",
         "stats": {
           "Cooldown": {
             "value": 1,
@@ -472,8 +429,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Fat Boris"
+        }
       },
       "NPC§Wretch": {
         "assets": {
@@ -482,7 +438,6 @@
             "Trait§Swift"
           ]
         },
-        "classification": "NPC",
         "stats": {
           "Cooldown": {
             "statOrder": 20,
@@ -513,8 +468,7 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "Wretch"
+        }
       },
       "Roster§Deck": {
         "allowed": {
@@ -539,7 +493,6 @@
             "NPC§Fat Boris"
           ]
         },
-        "classification": "Roster",
         "stats": {
           "Recruit": {
             "label": "Recruits",
@@ -593,110 +546,59 @@
             "statType": "rank",
             "dynamic": true
           }
-        },
-        "designation": "Deck"
+        }
       },
       "Trait§Artillery": {
-        "classification": "Trait",
-        "designation": "Artillery"
       },
       "Trait§Barbed Wire": {
-        "classification": "Trait",
-        "designation": "Barbed Wire"
       },
       "Trait§Berserker": {
-        "classification": "Trait",
-        "designation": "Berserker"
       },
       "Trait§Club": {
-        "classification": "Trait",
-        "designation": "Club"
       },
       "Trait§Farmer": {
-        "classification": "Trait",
-        "designation": "Farmer"
       },
       "Trait§Flamethrower": {
-        "classification": "Trait",
-        "designation": "Flamethrower"
       },
       "Trait§Flying": {
-        "classification": "Trait",
-        "designation": "Flying"
       },
       "Trait§Freedom Spoon": {
-        "classification": "Trait",
-        "designation": "Freedom Spoon"
       },
       "Trait§Grenade": {
-        "classification": "Trait",
-        "designation": "Grenade"
       },
       "Trait§Landmine": {
-        "classification": "Trait",
-        "text": "Detonates on collision after 0.25 seconds.",
-        "designation": "Landmine"
+        "text": "Detonates on collision after 0.25 seconds."
       },
       "Trait§Machine Gun": {
-        "classification": "Trait",
-        "designation": "Machine Gun"
       },
       "Trait§Medic": {
-        "classification": "Trait",
-        "designation": "Medic"
       },
       "Trait§Melee": {
-        "classification": "Trait",
-        "designation": "Melee"
       },
       "Trait§Minigun": {
-        "classification": "Trait",
-        "designation": "Minigun"
       },
       "Trait§Pistol": {
-        "classification": "Trait",
-        "designation": "Pistol"
       },
       "Trait§Proxy": {
-        "classification": "Trait",
-        "text": "Can build anywhere!",
-        "designation": "Proxy"
+        "text": "Can build anywhere!"
       },
       "Trait§Sniper": {
-        "classification": "Trait",
-        "designation": "Sniper"
       },
       "Trait§Spawner": {
-        "classification": "Trait",
-        "designation": "Spawner"
       },
       "Trait§Spear": {
-        "classification": "Trait",
-        "designation": "Spear"
       },
       "Trait§Stealth": {
-        "classification": "Trait",
-        "designation": "Stealth"
       },
       "Trait§Stim": {
-        "classification": "Trait",
-        "designation": "Stim"
       },
       "Trait§Submachine Gun": {
-        "classification": "Trait",
-        "designation": "Submachine Gun"
       },
       "Trait§Swift": {
-        "classification": "Trait",
-        "designation": "Swift"
       },
       "Trait§Time Bomb": {
-        "classification": "Trait",
-        "designation": "Time Bomb"
       },
       "Trait§Venomous": {
-        "classification": "Trait",
-        "designation": "Venomous"
       },
       "Unit§Badger": {
         "assets": {
@@ -704,7 +606,6 @@
             "Trait§Minigun"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -745,8 +646,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Badger"
+        }
       },
       "Unit§Boar": {
         "assets": {
@@ -754,7 +654,6 @@
             "Trait§Flamethrower"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -791,8 +690,7 @@
             "value": 6,
             "statType": "numeric"
           }
-        },
-        "designation": "Boar"
+        }
       },
       "Unit§Chameleon": {
         "assets": {
@@ -801,7 +699,6 @@
             "Trait§Stealth"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -842,8 +739,7 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "Chameleon"
+        }
       },
       "Unit§Drill Sergeant Volkov": {
         "assets": {
@@ -851,7 +747,6 @@
             "Trait§Stim"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -870,8 +765,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Drill Sergeant Volkov"
+        }
       },
       "Unit§Falcon": {
         "assets": {
@@ -880,7 +774,6 @@
             "Trait§Submachine Gun"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -931,8 +824,7 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "Falcon"
+        }
       },
       "Unit§Ferret": {
         "assets": {
@@ -940,7 +832,6 @@
             "Trait§Artillery"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -971,8 +862,7 @@
             "value": 8,
             "statType": "numeric"
           }
-        },
-        "designation": "Ferret"
+        }
       },
       "Unit§Fox": {
         "assets": {
@@ -981,7 +871,6 @@
             "Trait§Swift"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -1022,8 +911,7 @@
             "value": 6,
             "statType": "numeric"
           }
-        },
-        "designation": "Fox"
+        }
       },
       "Unit§Inmate #43B": {
         "assets": {
@@ -1031,7 +919,6 @@
             "Trait§Minigun"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -1064,8 +951,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Inmate #43B"
+        }
       },
       "Unit§Kasha, the Farmhand": {
         "assets": {
@@ -1074,7 +960,6 @@
             "Trait§Swift"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -1107,8 +992,7 @@
             "value": 6,
             "statType": "numeric"
           }
-        },
-        "designation": "Kasha, the Farmhand"
+        }
       },
       "Unit§Lizard": {
         "assets": {
@@ -1117,7 +1001,6 @@
             "Trait§Swift"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 1"
@@ -1158,8 +1041,7 @@
             "value": 2,
             "statType": "numeric"
           }
-        },
-        "designation": "Lizard"
+        }
       },
       "Unit§Mole": {
         "assets": {
@@ -1167,7 +1049,6 @@
             "Trait§Freedom Spoon"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 1"
@@ -1208,8 +1089,7 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "Mole"
+        }
       },
       "Unit§Owl": {
         "assets": {
@@ -1219,7 +1099,6 @@
             "NPC§Wretch"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -1272,8 +1151,7 @@
             "value": 7,
             "statType": "numeric"
           }
-        },
-        "designation": "Owl"
+        }
       },
       "Unit§Pigeon": {
         "assets": {
@@ -1282,7 +1160,6 @@
             "Trait§Flying"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 1"
@@ -1313,8 +1190,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Pigeon"
+        }
       },
       "Unit§Skunk": {
         "assets": {
@@ -1322,7 +1198,6 @@
             "Trait§Grenade"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -1353,8 +1228,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Skunk"
+        }
       },
       "Unit§Snake": {
         "assets": {
@@ -1362,7 +1236,6 @@
             "Trait§Venomous"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -1393,8 +1266,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Snake"
+        }
       },
       "Unit§Squirrel": {
         "assets": {
@@ -1402,7 +1274,6 @@
             "Trait§Pistol"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 1"
@@ -1433,8 +1304,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Squirrel"
+        }
       },
       "Unit§The Freight Union": {
         "assets": {
@@ -1442,7 +1312,6 @@
             "Trait§Artillery"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -1465,8 +1334,7 @@
             "value": 8,
             "statType": "numeric"
           }
-        },
-        "designation": "The Freight Union"
+        }
       },
       "Unit§The Glorious AFB": {
         "assets": {
@@ -1474,7 +1342,6 @@
             "Trait§Grenade"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -1497,8 +1364,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "The Glorious AFB"
+        }
       },
       "Unit§The Matriark": {
         "assets": {
@@ -1508,7 +1374,6 @@
             "NPC§Wretch"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -1553,8 +1418,7 @@
             "value": 7,
             "statType": "numeric"
           }
-        },
-        "designation": "The Matriark"
+        }
       },
       "Unit§The Tooth Collectors": {
         "assets": {
@@ -1562,7 +1426,6 @@
             "Trait§Venomous"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -1585,8 +1448,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "The Tooth Collectors"
+        }
       },
       "Unit§The Trench Gang": {
         "assets": {
@@ -1595,7 +1457,6 @@
             "Trait§Stealth"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -1628,8 +1489,7 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "The Trench Gang"
+        }
       },
       "Unit§The Wing Demons": {
         "assets": {
@@ -1638,7 +1498,6 @@
             "Trait§Submachine Gun"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 2"
@@ -1681,8 +1540,7 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "The Wing Demons"
+        }
       },
       "Unit§Toad": {
         "assets": {
@@ -1690,7 +1548,6 @@
             "Trait§Time Bomb"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 1"
@@ -1731,8 +1588,7 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "Toad"
+        }
       },
       "Unit§Uncle Butters": {
         "assets": {
@@ -1740,7 +1596,6 @@
             "Trait§Flamethrower"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -1769,8 +1624,7 @@
             "value": 8,
             "statType": "numeric"
           }
-        },
-        "designation": "Uncle Butters"
+        }
       },
       "Unit§Wolf": {
         "assets": {
@@ -1778,7 +1632,6 @@
             "Trait§Stim"
           ]
         },
-        "classification": "Unit",
         "keywords": {
           "Keywords": [
             "Tier 3"
@@ -1805,8 +1658,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Wolf"
+        }
       },
       "Warren§Mole Warren": {
         "assets": {
@@ -1814,7 +1666,6 @@
             "Trait§Proxy"
           ]
         },
-        "classification": "Warren",
         "stats": {
           "Build Time": {
             "value": 10,
@@ -1828,11 +1679,9 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Mole Warren"
+        }
       },
       "Warren§Tier 1 Warren": {
-        "classification": "Warren",
         "stats": {
           "Build Time": {
             "value": 10,
@@ -1846,11 +1695,9 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Tier 1 Warren"
+        }
       },
       "Warren§Tier 2 Warren": {
-        "classification": "Warren",
         "stats": {
           "Build Time": {
             "value": 20,
@@ -1864,11 +1711,9 @@
             "value": 2,
             "statType": "numeric"
           }
-        },
-        "designation": "Tier 2 Warren"
+        }
       },
       "Warren§Tier 3 Warren": {
-        "classification": "Warren",
         "stats": {
           "Build Time": {
             "value": 50,
@@ -1882,12 +1727,9 @@
             "value": 1,
             "statType": "numeric"
           }
-        },
-        "designation": "Tier 3 Warren"
+        }
       }
     },
     "gameModes": {}
-  },
-  "revision": null,
-  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution."
+  }
 }

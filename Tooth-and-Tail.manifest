@@ -1,11 +1,12 @@
 {
   "name": "Tooth and Tail",
-  "revision": null,
+  "revision": "0.1.1",
   "game": "Tooth and Tail",
   "genre": "generic",
   "publisher": "Pocketwatch Games",
   "url": "http://www.toothandtailgame.com/",
   "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.\n\nNeed:\n\n* unit speed \n* mole building dmg\n* unit vision\n* warren/mill/farm stats  \n(build time, hp, production, etc)",
+  "wip":false,
   "manifest": {
     "assetTaxonomy": {
       "1st Tier Recruit": {
@@ -502,43 +503,36 @@
               "3": {
                 "hotkey": "3",
                 "order": 3,
-                "statType": "value",
                 "number": 3
               },
               "4": {
                 "hotkey": "4",
                 "order": 4,
-                "statType": "value",
                 "number": 4
               },
               "5": {
                 "hotkey": "5",
                 "order": 5,
-                "statType": "value",
                 "number": 5
               },
               "6": {
                 "hotkey": "6",
                 "order": 6,
-                "statType": "value",
                 "number": 6
               },
               "7": {
                 "hotkey": "7",
                 "order": 7,
-                "statType": "value",
                 "number": 7
               },
               "8": {
                 "hotkey": "8",
                 "order": 8,
-                "statType": "value",
                 "number": 8
               },
               "9": {
                 "hotkey": "9",
                 "order": 9,
-                "statType": "value",
                 "number": 9
               }
             },

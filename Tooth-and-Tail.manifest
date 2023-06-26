@@ -1,12 +1,12 @@
 {
   "name": "Tooth and Tail",
-  "revision": "0.1.1",
+  "revision": "0.1.2",
   "game": "Tooth and Tail",
   "genre": "generic",
   "publisher": "Pocketwatch Games",
   "url": "http://www.toothandtailgame.com/",
   "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.\n\nNeed:\n\n* unit speed \n* mole building dmg\n* unit vision\n* warren/mill/farm stats  \n(build time, hp, production, etc)",
-  "wip":false,
+  "wip": false,
   "manifest": {
     "assetTaxonomy": {
       "1st Tier Recruit": {
@@ -17,9 +17,9 @@
         },
         "stats": {
           "Recruit": {
-            "value": 1,
-            "tracked": true,
             "statType": "numeric",
+            "tracked": true,
+            "value": 1,
             "visibility": "hidden"
           }
         }
@@ -32,9 +32,9 @@
         },
         "stats": {
           "Recruit": {
+            "statType": "numeric",
             "tracked": true,
             "value": 1,
-            "statType": "numeric",
             "visibility": "hidden"
           }
         }
@@ -47,9 +47,9 @@
         },
         "stats": {
           "Recruit": {
+            "statType": "numeric",
             "tracked": true,
             "value": 1,
-            "statType": "numeric",
             "visibility": "hidden"
           }
         }
@@ -67,9 +67,9 @@
         },
         "stats": {
           "Recruit": {
+            "statType": "numeric",
             "tracked": true,
             "value": 1,
-            "statType": "numeric",
             "visibility": "hidden"
           }
         }
@@ -99,35 +99,35 @@
       "NPC": {
         "stats": {
           "Cooldown": {
-            "statOrder": 2,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2
+            "statOrder": 2
           },
           "Damage": {
-            "statOrder": 1,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "rough-wound"
             ],
-            "group": "Attack",
-            "groupOrder": 2
+            "statOrder": 1
           },
           "Defense": {
+            "group": "Defense",
+            "groupOrder": 1,
             "icons": [
               "heart-shield"
-            ],
-            "group": "Defense",
-            "groupOrder": 1
+            ]
           },
           "Range": {
-            "statOrder": 3,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "path-distance"
             ],
-            "group": "Attack",
-            "groupOrder": 2
+            "statOrder": 3
           }
         }
       },
@@ -135,60 +135,60 @@
       "Unit": {
         "stats": {
           "Build Time": {
-            "statOrder": 2,
+            "group": "Build",
+            "groupOrder": 3,
             "icons": [
               "stopwatch"
             ],
-            "group": "Build",
-            "groupOrder": 3
+            "statOrder": 2
           },
           "Cooldown": {
-            "statOrder": 20,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "duration"
             ],
-            "group": "Attack",
-            "groupOrder": 2
+            "statOrder": 20
           },
           "Cost": {
-            "statOrder": 1,
+            "group": "Build",
+            "groupOrder": 3,
             "icons": [
               "ham-shank"
             ],
-            "group": "Build",
-            "groupOrder": 3
+            "statOrder": 1
           },
           "Damage": {
-            "statOrder": 10,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "rough-wound"
             ],
-            "group": "Attack",
-            "groupOrder": 2
+            "statOrder": 10
           },
           "Defense": {
+            "group": "Defense",
+            "groupOrder": 1,
             "icons": [
               "heart-shield"
-            ],
-            "group": "Defense",
-            "groupOrder": 1
+            ]
           },
           "Range": {
-            "statOrder": 30,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "path-distance"
             ],
-            "group": "Attack",
-            "groupOrder": 2
+            "statOrder": 30
           },
           "Vision": {
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "spyglass"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -208,8 +208,8 @@
             "icons": [
               "heart-shield"
             ],
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Yield": {
             "icons": [
@@ -388,23 +388,23 @@
         },
         "stats": {
           "Build Time": {
-            "value": 120,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 120
           },
           "Defense": {
-            "value": 150,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 150
           },
           "Territory": {
             "icons": [
               "radar-cross-section"
             ],
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Vision": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           }
         }
       },
@@ -414,20 +414,20 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Damage": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Defense": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -441,32 +441,32 @@
         "stats": {
           "Cooldown": {
             "statOrder": 20,
-            "value": 0.75,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.75
           },
           "Damage": {
             "statOrder": 10,
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Defense": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.25,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.25
           },
           "Range": {
             "statOrder": 30,
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         }
       },
@@ -495,104 +495,81 @@
         },
         "stats": {
           "Recruit": {
-            "label": "Recruits",
+            "dynamic": true,
             "icons": [
               "rat"
             ],
+            "label": "Recruits",
             "ranks": {
               "3": {
                 "hotkey": "3",
-                "order": 3,
-                "number": 3
+                "number": 3,
+                "order": 3
               },
               "4": {
                 "hotkey": "4",
-                "order": 4,
-                "number": 4
+                "number": 4,
+                "order": 4
               },
               "5": {
                 "hotkey": "5",
-                "order": 5,
-                "number": 5
+                "number": 5,
+                "order": 5
               },
               "6": {
                 "hotkey": "6",
-                "order": 6,
-                "number": 6
+                "number": 6,
+                "order": 6
               },
               "7": {
                 "hotkey": "7",
-                "order": 7,
-                "number": 7
+                "number": 7,
+                "order": 7
               },
               "8": {
                 "hotkey": "8",
-                "order": 8,
-                "number": 8
+                "number": 8,
+                "order": 8
               },
               "9": {
                 "hotkey": "9",
-                "order": 9,
-                "number": 9
+                "number": 9,
+                "order": 9
               }
             },
-            "statType": "rank",
-            "dynamic": true
+            "statType": "rank"
           }
         }
       },
-      "Trait§Artillery": {
-      },
-      "Trait§Barbed Wire": {
-      },
-      "Trait§Berserker": {
-      },
-      "Trait§Club": {
-      },
-      "Trait§Farmer": {
-      },
-      "Trait§Flamethrower": {
-      },
-      "Trait§Flying": {
-      },
-      "Trait§Freedom Spoon": {
-      },
-      "Trait§Grenade": {
-      },
+      "Trait§Artillery": {},
+      "Trait§Barbed Wire": {},
+      "Trait§Berserker": {},
+      "Trait§Club": {},
+      "Trait§Farmer": {},
+      "Trait§Flamethrower": {},
+      "Trait§Flying": {},
+      "Trait§Freedom Spoon": {},
+      "Trait§Grenade": {},
       "Trait§Landmine": {
         "text": "Detonates on collision after 0.25 seconds."
       },
-      "Trait§Machine Gun": {
-      },
-      "Trait§Medic": {
-      },
-      "Trait§Melee": {
-      },
-      "Trait§Minigun": {
-      },
-      "Trait§Pistol": {
-      },
+      "Trait§Machine Gun": {},
+      "Trait§Medic": {},
+      "Trait§Melee": {},
+      "Trait§Minigun": {},
+      "Trait§Pistol": {},
       "Trait§Proxy": {
         "text": "Can build anywhere!"
       },
-      "Trait§Sniper": {
-      },
-      "Trait§Spawner": {
-      },
-      "Trait§Spear": {
-      },
-      "Trait§Stealth": {
-      },
-      "Trait§Stim": {
-      },
-      "Trait§Submachine Gun": {
-      },
-      "Trait§Swift": {
-      },
-      "Trait§Time Bomb": {
-      },
-      "Trait§Venomous": {
-      },
+      "Trait§Sniper": {},
+      "Trait§Spawner": {},
+      "Trait§Spear": {},
+      "Trait§Stealth": {},
+      "Trait§Stim": {},
+      "Trait§Submachine Gun": {},
+      "Trait§Swift": {},
+      "Trait§Time Bomb": {},
+      "Trait§Venomous": {},
       "Unit§Badger": {
         "assets": {
           "traits": [
@@ -606,38 +583,38 @@
         },
         "stats": {
           "Build Time": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Cooldown": {
-            "value": 0.1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.1
           },
           "Cost": {
-            "value": 180,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 180
           },
           "Damage": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Defense": {
-            "value": 65,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 65
           },
           "Max Damage": {
-            "value": 25,
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "rough-wound"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 25
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -654,34 +631,34 @@
         },
         "stats": {
           "Build Time": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Cost": {
-            "value": 180,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 180
           },
           "Damage": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Defense": {
-            "value": 110,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 110
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "vs. Struct.": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "damaged-house"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 6,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 6
           }
         }
       },
@@ -699,38 +676,38 @@
         },
         "stats": {
           "Build Time": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Cooldown": {
-            "value": 0.25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.25
           },
           "Cost": {
-            "value": 60,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 60
           },
           "Damage": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Defense": {
-            "value": 30,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 30
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.25,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.25
           },
           "Range": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         }
       },
@@ -747,16 +724,16 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Defense": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -774,48 +751,48 @@
         },
         "stats": {
           "Build Time": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Cooldown": {
-            "value": 0.1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.1
           },
           "Cost": {
-            "value": 60,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 60
           },
           "Damage": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Defense": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Magazine": {
-            "statOrder": 25,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "machine-gun-magazine"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 10,
-            "statType": "numeric"
+            "statOrder": 25,
+            "statType": "numeric",
+            "value": 10
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Reload": {
-            "statOrder": 26,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "reload-gun-barrel"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 1,
-            "statType": "numeric"
+            "statOrder": 26,
+            "statType": "numeric",
+            "value": 1
           }
         }
       },
@@ -832,28 +809,28 @@
         },
         "stats": {
           "Build Time": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Cooldown": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Cost": {
-            "value": 60,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 60
           },
           "Damage": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Defense": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
           },
           "Range": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           }
         }
       },
@@ -871,38 +848,38 @@
         },
         "stats": {
           "Build Time": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Cooldown": {
-            "value": 1.8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1.8
           },
           "Cost": {
-            "value": 180,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 180
           },
           "Damage": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Defense": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.2,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.2
           },
           "Range": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           }
         }
       },
@@ -919,30 +896,30 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 0.1,
-            "statType": "numeric"
-          },
-          "DPS": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.1
           },
           "Defense": {
-            "value": 65,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 65
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 5
           },
           "Max DPS": {
-            "value": 25,
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "rough-wound"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 25
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -960,30 +937,30 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 1.8,
-            "statType": "numeric"
-          },
-          "DPS": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1.8
           },
           "Defense": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.2,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.2
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 10
           },
           "Range": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           }
         }
       },
@@ -1001,38 +978,38 @@
         },
         "stats": {
           "Build Time": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Cooldown": {
-            "value": 0.75,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.75
           },
           "Cost": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Damage": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Defense": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 3,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 3,
-            "value": 0.25,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.25
           },
           "Range": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           }
         }
       },
@@ -1049,38 +1026,38 @@
         },
         "stats": {
           "Build Time": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Cooldown": {
-            "value": 0.75,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.75
           },
           "Cost": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Damage": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Defense": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.25,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.25
           },
           "Range": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         }
       },
@@ -1099,50 +1076,50 @@
         },
         "stats": {
           "Build Time": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Cooldown": {
-            "value": 0.75,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.75
           },
           "Cost": {
-            "value": 180,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 180
           },
           "Defense": {
-            "value": 40,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 40
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.25,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.25
           },
           "Magazine": {
-            "statOrder": 25,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "machine-gun-magazine"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 3,
-            "statType": "numeric"
+            "statOrder": 25,
+            "statType": "numeric",
+            "value": 3
           },
           "Reload": {
-            "statOrder": 26,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "reload-gun-barrel"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 7,
-            "statType": "numeric"
+            "statOrder": 26,
+            "statType": "numeric",
+            "value": 7
           }
         }
       },
@@ -1160,28 +1137,28 @@
         },
         "stats": {
           "Build Time": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Cooldown": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Cost": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Damage": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Defense": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -1198,28 +1175,28 @@
         },
         "stats": {
           "Build Time": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Cooldown": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Cost": {
-            "value": 60,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 60
           },
           "Damage": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Defense": {
-            "value": 32,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 32
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -1236,28 +1213,28 @@
         },
         "stats": {
           "Build Time": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Cooldown": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Cost": {
-            "value": 60,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 60
           },
           "Damage": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Defense": {
-            "value": 28,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 28
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -1274,28 +1251,28 @@
         },
         "stats": {
           "Build Time": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Cooldown": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Cost": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Damage": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Defense": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -1312,20 +1289,20 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 2,
-            "statType": "numeric"
-          },
-          "DPS": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Defense": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 5
           },
           "Range": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           }
         }
       },
@@ -1342,20 +1319,20 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 1,
-            "statType": "numeric"
-          },
-          "DPS": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Defense": {
-            "value": 32,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 32
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 3
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -1374,42 +1351,42 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 0.75,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.75
           },
           "Defense": {
-            "value": 40,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 40
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.25,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.25
           },
           "Magazine": {
-            "statOrder": 25,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "machine-gun-magazine"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 3,
-            "statType": "numeric"
+            "statOrder": 25,
+            "statType": "numeric",
+            "value": 3
           },
           "Reload": {
-            "statOrder": 26,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "reload-gun-barrel"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 7,
-            "statType": "numeric"
+            "statOrder": 26,
+            "statType": "numeric",
+            "value": 7
           }
         }
       },
@@ -1426,20 +1403,20 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 1,
-            "statType": "numeric"
-          },
-          "DPS": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Defense": {
-            "value": 28,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 28
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 2
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -1457,30 +1434,30 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 0.25,
-            "statType": "numeric"
-          },
-          "DPS": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.25
           },
           "Defense": {
-            "value": 30,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 30
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.25,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.25
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 8
           },
           "Range": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         }
       },
@@ -1498,40 +1475,40 @@
         },
         "stats": {
           "Cooldown": {
-            "value": 0.1,
-            "statType": "numeric"
-          },
-          "DPS": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 0.1
           },
           "Defense": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 5
           },
           "Magazine": {
-            "statOrder": 25,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "machine-gun-magazine"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 10,
-            "statType": "numeric"
+            "statOrder": 25,
+            "statType": "numeric",
+            "value": 10
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Reload": {
-            "statOrder": 26,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "reload-gun-barrel"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 1,
-            "statType": "numeric"
+            "statOrder": 26,
+            "statType": "numeric",
+            "value": 1
           }
         }
       },
@@ -1548,38 +1525,38 @@
         },
         "stats": {
           "Build Time": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Cooldown": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Cost": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Damage": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Defense": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Delay": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "pocket-watch"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 0.3,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 0.3
           },
           "Range": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         }
       },
@@ -1595,27 +1572,27 @@
           ]
         },
         "stats": {
-          "DPS": {
-            "value": 4,
-            "statType": "numeric"
-          },
           "Defense": {
-            "value": 110,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 110
+          },
+          "DPS": {
+            "statType": "numeric",
+            "value": 4
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "vs. Struct.": {
-            "statOrder": 15,
+            "group": "Attack",
+            "groupOrder": 2,
             "icons": [
               "damaged-house"
             ],
-            "group": "Attack",
-            "groupOrder": 2,
-            "value": 8,
-            "statType": "numeric"
+            "statOrder": 15,
+            "statType": "numeric",
+            "value": 8
           }
         }
       },
@@ -1632,24 +1609,24 @@
         },
         "stats": {
           "Build Time": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Cooldown": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Cost": {
-            "value": 180,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 180
           },
           "Defense": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Range": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -1661,64 +1638,64 @@
         },
         "stats": {
           "Build Time": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Cost": {
-            "value": 60,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 60
           },
           "Yield": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
       "Warren§Tier 1 Warren": {
         "stats": {
           "Build Time": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Cost": {
-            "value": 60,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 60
           },
           "Yield": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
       "Warren§Tier 2 Warren": {
         "stats": {
           "Build Time": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Cost": {
-            "value": 120,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 120
           },
           "Yield": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           }
         }
       },
       "Warren§Tier 3 Warren": {
         "stats": {
           "Build Time": {
-            "value": 50,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 50
           },
           "Cost": {
-            "value": 180,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 180
           },
           "Yield": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         }
       }

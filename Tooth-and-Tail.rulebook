@@ -5,9 +5,9 @@
   "genre": "generic",
   "publisher": "Pocketwatch Games",
   "url": "http://www.toothandtailgame.com/",
-  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.\n\nNeed:\n\n* unit speed \n* mole building dmg\n* unit vision\n* warren/mill/farm stats  \n(build time, hp, production, etc)",
+  "notes": "This rulebook is provided for the purposes of testing *Rosterizer* and is not intended for distribution.\n\nNeed:\n\n* unit speed \n* mole building dmg\n* unit vision\n* warren/mill/farm stats  \n(build time, hp, production, etc)",
   "wip": false,
-  "manifest": {
+  "rulebook": {
     "assetTaxonomy": {
       "1st Tier Recruit": {
         "aspects": {

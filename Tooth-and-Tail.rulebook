@@ -1,6 +1,6 @@
 {
   "name": "Tooth and Tail",
-  "revision": "0.1.2",
+  "revision": "0.2.0",
   "game": "Tooth and Tail",
   "genre": "generic",
   "publisher": "Pocketwatch Games",
@@ -470,7 +470,7 @@
           }
         }
       },
-      "Roster§Deck": {
+      "Roster§Roster": {
         "allowed": {
           "classifications": [
             "1st Tier Recruit",
@@ -482,6 +482,7 @@
         "aspects": {
           "Describe": true,
           "Lock Qty": true,
+          "Label": "Deck",
           "Rename": true,
           "Type": "conceptual",
           "Unique": true
